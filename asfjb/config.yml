@@ -21,8 +21,8 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
         CertDomain: "1.siiir.ml" # Domain to cert
-        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
-        KeyFile: /etc/XrayR/private.pem
+        CertFile: /etc/XrayR/1.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/2.pem
         Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email:
         DNSEnv: # DNS ENV option used by DNS provider
@@ -45,8 +45,8 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
         CertDomain: "2.siiir.ml" # Domain to cert
-        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
-        KeyFile: /etc/XrayR/private.pem
+        CertFile: /etc/XrayR/1.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/2.pem
         Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email:
         DNSEnv: # DNS ENV option used by DNS provider
@@ -69,8 +69,8 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
         CertDomain: "3.siiir.ml" # Domain to cert
-        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
-        KeyFile: /etc/XrayR/private.pem
+        CertFile: /etc/XrayR/1.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/2.pem
         Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email:
         DNSEnv: # DNS ENV option used by DNS provider
