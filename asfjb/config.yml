@@ -9,7 +9,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 3
+      NodeID: 4
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
@@ -33,7 +33,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 4
+      NodeID: 13
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
@@ -57,7 +57,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 13
+      NodeID: 3
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
