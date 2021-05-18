@@ -9,7 +9,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 4
+      NodeID: 3
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
@@ -33,7 +33,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 13
+      NodeID: 4
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
@@ -57,7 +57,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://siiir.tk"
       ApiKey: "default_mu_key"
-      NodeID: 3
+      NodeID: 13
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request, Default is 5 sec
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
@@ -69,6 +69,246 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
         CertDomain: "3.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 14
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "4.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 15
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "5.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 16
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "6.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 17
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "7.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 18
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "8.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 19
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "9.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 20
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "10.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 21
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "11.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 22
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "12.siiir.ml" # Domain to cert
+        CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/private.pem
+        Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Email:
+        DNSEnv: # DNS ENV option used by DNS provider
+          ALICLOUD_ACCESS_KEY:
+          ALICLOUD_SECRET_KEY:
+  -
+    PanelType: "SSpanel" # Panel type: SSpanel
+    ApiConfig:
+      ApiHost: "https://siiir.tk"
+      ApiKey: "default_mu_key"
+      NodeID: 23
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
+      Timeout: 30 # Timeout for the api request, Default is 5 sec
+      EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
+      EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
+    ControllerConfig:
+      ListenIP: 0.0.0.0 # IP address you want to listen
+      UpdatePeriodic: 60 # Time to update the nodeinfo, how many sec.
+      EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
+      CertConfig:
+        CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
+        CertDomain: "13.siiir.ml" # Domain to cert
         CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
         KeyFile: /etc/XrayR/private.pem
         Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
