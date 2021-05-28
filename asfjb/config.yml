@@ -1,16 +1,11 @@
-UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
-      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
-      CertConfig：
-        CertMode：file  ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
-        CertDomain：“ siiir.ml ”  ＃要認證的域名
-        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
-        密鑰文件：/etc/XrayR/private.pem
-        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
-        電郵：
-        DNSEnv：＃ DNS ENV選擇使用DNS提供商
-          ALICLOUD_ACCESS_KEY：
-          ALICLOUD_SECRET_KEY：
-  --
+
+Log:
+  Level: debug # Log level: none, error, warning, info, debug 
+  AccessPath: # ./access.Log
+  ErrorPath: # ./error.log
+DnsConfigPath: # ./dns.json  Path to dns config
+Nodes:
+  -
     PanelType：“ SSpanel ”  ＃面板類型：SSpanel
     ApiConfig：
       ApiHost：“ https://siiir.tk ”
