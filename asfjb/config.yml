@@ -1,0 +1,300 @@
+UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file  ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ siiir.ml ”  ＃要認證的域名
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：4
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 2.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：13
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 3.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：14
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 4.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：15
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 5.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：16
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 6.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：17
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 7.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：18
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 8.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：19
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 9.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：20
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 10.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：21
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 11.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：22
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 12.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
+  --
+    PanelType：“ SSpanel ”  ＃面板類型：SSpanel
+    ApiConfig：
+      ApiHost：“ https://siiir.tk ”
+      ApiKey：“ default_mu_key ”
+      節點ID：23
+      NodeType：V2ray ＃節點類型：V2ray，Shadowsocks，木馬
+      超時：30  ＃ api請求超時，默認值為5秒
+      EnableVless：false ＃為V2ray類型啟用Vless，首選遠程配置
+      EnableXTLS：false ＃為V2ray和Trojan啟用XTLS，建議進行遠程配置
+    ControllerConfig：
+      ListenIP：0.0.0.0 ＃您要收聽的IP地址
+      UpdatePeriodic：60  ＃更新節點信息的時間，以秒為單位。
+      EnableDNS：false ＃啟用自定義DNS配置，請確保正確設置dns.json
+      CertConfig：
+        CertMode：file ＃關於如何獲取證書的選項：無，文件，http，dns。選擇“無”將強制禁用tls配置。
+        CertDomain：“ 13.siiir.ml ”  ＃要驗證的域
+        CERTFILE：/etc/XrayR/fullchain.crt ＃如果CertMode是文件中提供
+        密鑰文件：/etc/XrayR/private.pem
+        供應商：   ＃ DNS證書提供商，在這裡獲得完整的支持列表：https://go-acme.github.io/lego/dns/
+        電郵：
+        DNSEnv：＃ DNS ENV選擇使用DNS提供商
+          ALICLOUD_ACCESS_KEY：
+          ALICLOUD_SECRET_KEY：
