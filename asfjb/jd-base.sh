@@ -143,7 +143,7 @@ docker run -dit \
     -v /JD/jd/config:/jd/config \
     -v /JD/jd/log:/jd/log \
     -v /JD/jd/scripts:/jd/scripts \
-    -p 2095:5678 \
+    -p 8080:5678 \
     -e ENABLE_HANGUP=true \
     -e ENABLE_WEB_PANEL=true \
     --name jd \
