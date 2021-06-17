@@ -20,7 +20,7 @@ Nodes:
       EnableDNS: false # Enable custom DNS config, Please ensure that you set the dns.json well
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
-        CertDomain: "1.siiir.ml" # Domain to cert
+        CertDomain: "siiir.ml" # Domain to cert
         CertFile: /etc/XrayR/fullchain.crt # Provided if the CertMode is file
         KeyFile: /etc/XrayR/private.pem
         Provider:  # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
