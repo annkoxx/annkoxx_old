@@ -48,7 +48,7 @@ Nodes:
           ALICLOUD_ACCESS_KEY: 
           ALICLOUD_SECRET_KEY: 
   -
-    PanelType: "V2board" # Panel type: SSpanel, V2board
+    PanelType: "SSpanel" # Panel type: SSpanel, V2board
     ApiConfig:
       ApiHost: "https://uidd.tk"
       ApiKey: "default_mu_key"
