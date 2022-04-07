@@ -15,7 +15,7 @@ locations = ['eastus', 'eastus2', 'westus', 'centralus', 'northcentralus', 'sout
 limit1 = os.popen('az vm list-usage --location westus --query "[?localName== \'Total Regional vCPUs\'].limit" -o tsv')
 email1 = os.popen('az account list --query "[].{ZTID:isDefault,email:user.name}" -o tsv|grep True|cut -f 2| tr "\n" "-"|tr "@" "-"')
 limit = limit1.read()
-email = email1.read()
+email = input("请输入机器备注,限制 英文 数字 - . 这四个（仅一行）:  ")
 # 默认每个区域的配额都相同，因此只需查询美国东部地区的配额
 # Azure for Students订阅每个区域的vCPU总数为6，
 # 标准FSv2系列vCPUs为4，标准FS系列vCPUs为4
