@@ -1,4 +1,3 @@
-[Forwarded from 卖牛奶的(出az、oracle注册+测活脚本)]
 import io
 import time
 import json
