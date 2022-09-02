@@ -34,8 +34,8 @@ elif '10' in limit:
 #    size1_name = "Standard_F8s_v2"
 #    size1_abbreviation = "F8s_v2"
 #    size1_count = 1
-    size1_name = "Standard_F2s_v2"
-    size1_abbreviation = "F2s_v2"
+    size1_name = "Standard_B1s"
+    size1_abbreviation = "B1s"
     size1_count = 5
 #    size2_name = "Standard_F2s_v2"
 #    size2_abbreviation = "F2s_v2"
