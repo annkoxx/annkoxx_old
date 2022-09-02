@@ -19,12 +19,13 @@ limit = "10"
 if '6' in limit:
     print("当前订阅为Azure for Students")
     size1_name = "Standard_F4s_v2"
-    size1_abbreviation = "F4s_v2"
+    size1_abbreviation = "F4s-v2"
     size1_count = 1
-    size2_name = "Standard_B1s"
-    size2_abbreviation = "B1s"
+    size2_name = "Standard_F2s"
+    size2_abbreviation = "F2s"
     size2_count = 1
     type = 0
+    bcs = 2
  
 # 即用即付订阅每个区域的vCPU总数为10，与标准FSv2系列的vCPUs相同
 # 因此创建一个Standard_F8s_v2实例（占用8个vCPUs），
@@ -34,13 +35,14 @@ elif '10' in limit:
 #    size1_name = "Standard_F8s_v2"
 #    size1_abbreviation = "F8s_v2"
 #    size1_count = 1
-    size1_name = "Standard_B1s"
-    size1_abbreviation = "B1s"
+    size1_name = "Standard_F2s_v2"
+    size1_abbreviation = "F2s-v2"
     size1_count = 5
-#    size2_name = "Standard_B1s"
-#    size2_abbreviation = "B1s"
+#    size2_name = "Standard_F2s_v2"
+#    size2_abbreviation = "F2s_v2"
 #    size2_count = 3
     type = 1
+    bcs = 5
  
 # 免费试用订阅每个区域的vCPU总数为4，与标准FSv2系列的vCPUs相同
 # 因此创建1个Standard_F4s_v2实例（共占用4个vCPUs）
@@ -50,10 +52,11 @@ elif '4' in limit:
 #   selection = input("输入Y继续运行，任意键退出")
 #   if selection != "Y" or "y":
 #       exit(0)
-    size1_name = "Standard_B1s"
-    size1_abbreviation = "B1s"
+    size1_name = "Standard_F4s_v2"
+    size1_abbreviation = "F4s-v2"
     size1_count = 1
-    type = 1
+    type = 2
+    bcs = 1
  
 else:
     print("未知订阅，请手动修改创建虚拟机的数量")
@@ -93,18 +96,18 @@ for x in ['1','2']:
         # Azure for Students订阅不支持 F/FS 系列
         if location == "westcentralus" and type == 0:
             size1_name = "Standard_D4ds_v4"
-            size1_abbreviation = "D4ds_v4"
+            size1_abbreviation = "D4ds-v4"
             size2_name = "Standard_D2s_v4"
-            size2_abbreviation = "D2s_v4"
+            size2_abbreviation = "D2s-v4"
         if location == "westcentralus" and type == 1:
-            size1_name = "Standard_B1s"
-            size1_abbreviation = "B1s"
-            size2_name = "Standard_B1s"
-            size2_abbreviation = "B1s"
+            size1_name = "Standard_F2s"
+            size1_abbreviation = "F2s"
+            size2_name = "Standard_F2s"
+            size2_abbreviation = "F2s"
         if location == "westcentralus" and type == 2:
-            size1_name = "Standard_B1s"
-            size1_abbreviation = "B1s"
-     
+            size1_name = "Standard_F4s"
+            size1_abbreviation = "F4s"
+           
         count = 0
         for a in range(0, size1_count):
             count += 1
