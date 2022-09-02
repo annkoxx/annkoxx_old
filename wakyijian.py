@@ -21,8 +21,8 @@ if '6' in limit:
     size1_name = "Standard_F4s_v2"
     size1_abbreviation = "F4s_v2"
     size1_count = 1
-    size2_name = "Standard_F2s"
-    size2_abbreviation = "F2s"
+    size2_name = "Standard_B1s"
+    size2_abbreviation = "B1s"
     size2_count = 1
     type = 0
  
@@ -50,8 +50,8 @@ elif '4' in limit:
 #   selection = input("输入Y继续运行，任意键退出")
 #   if selection != "Y" or "y":
 #       exit(0)
-    size1_name = "Standard_F4s_v2"
-    size1_abbreviation = "F4s_v2"
+    size1_name = "Standard_B1s"
+    size1_abbreviation = "B1s"
     size1_count = 1
     type = 2
  
