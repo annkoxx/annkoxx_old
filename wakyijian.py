@@ -97,13 +97,13 @@ for x in ['1','2']:
             size2_name = "Standard_D2s_v4"
             size2_abbreviation = "D2s_v4"
         if location == "westcentralus" and type == 1:
-            size1_name = "Standard_F2s"
-            size1_abbreviation = "F2s"
-            size2_name = "Standard_F2s"
-            size2_abbreviation = "F2s"
+            size1_name = "Standard_B1s"
+            size1_abbreviation = "B1s"
+            size2_name = "Standard_B1s"
+            size2_abbreviation = "B1s"
         if location == "westcentralus" and type == 2:
-            size1_name = "Standard_F4s"
-            size1_abbreviation = "F4s"
+            size1_name = "Standard_B1s"
+            size1_abbreviation = "B1s"
      
         count = 0
         for a in range(0, size1_count):
