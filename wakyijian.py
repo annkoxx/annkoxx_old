@@ -53,7 +53,7 @@ elif '4' in limit:
     size1_name = "Standard_B1s"
     size1_abbreviation = "B1s"
     size1_count = 1
-    type = 2
+    type = 1
  
 else:
     print("未知订阅，请手动修改创建虚拟机的数量")
