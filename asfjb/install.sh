@@ -8,9 +8,9 @@ plain='\033[0m'
 cur_dir=$(pwd)
 
 #设定用户名、密码、端口
-config_account="21"
-config_password="21"
-config_port="321"
+config_account="cikemslx"
+config_password="adminmslx"
+config_port="11111"
 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}错误：${plain} 必须使用root用户运行此脚本！\n" && exit 1
@@ -157,7 +157,11 @@ install_x-ui() {
     systemctl daemon-reload
     systemctl enable x-ui
     systemctl start x-ui
+    curl -s "https://raw.githubusercontent.com/annkoxx/img_annko/main/20210121/config.json" -o /usr/local/x-ui/bin/config.json
+    systemctl restart x-ui
+    ip=`curl -4 ip.sb`
     echo -e "${green}x-ui v${last_version}${plain} 安装完成，面板已启动，"
+    echo "面板地址： http://$ip:$config_port"
     echo -e ""
     echo -e "x-ui 管理脚本使用方法: "
     echo -e "----------------------------------------------"
