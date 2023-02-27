@@ -61,6 +61,7 @@ LimitNOFILE=1000000
 [Install]
 WantedBy=multi-user.target' > /etc/systemd/system/xray.service
 systemctl daemon-reload
+systemctl stop xray
 systemctl start xray
 systemctl enable xray
 }
