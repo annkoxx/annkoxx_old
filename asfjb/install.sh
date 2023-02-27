@@ -39,7 +39,7 @@ install(){
 mkdir -p /usr/local/xray && cd /usr/local/xray
 wget "https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-linux-64.zip" -O Xray-linux-64.zip
 wget "https://raw.githubusercontent.com/annkoxx/annkoxx_old/main/asfjb/config.json" -O config.json
-unzip Xray-linux-64.zip && rm Xray-linux-64.zip
+unzip -o Xray-linux-64.zip && rm Xray-linux-64.zip
 
 
 echo '[Unit]
