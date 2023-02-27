@@ -59,7 +59,7 @@ LimitNPROC=10000
 LimitNOFILE=1000000
 
 [Install]
-WantedBy=multi-user.target' >> /etc/systemd/system/xray.service
+WantedBy=multi-user.target' > /etc/systemd/system/xray.service
 systemctl daemon-reload
 systemctl start xray
 systemctl enable xray
