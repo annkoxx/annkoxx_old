@@ -16,7 +16,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel
     ApiConfig:
-      ApiHost: "http://yaemiko.website"
+      ApiHost: "https://yaemiko.website"
       ApiKey: "Guojiang1237892580"
       NodeID: 16
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
