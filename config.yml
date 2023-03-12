@@ -71,7 +71,7 @@ Nodes:
   -
     PanelType: "SSpanel" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "https://543216.xyz"
+      ApiHost: "https://nasn.tech"
       ApiKey: "yzksB04BD1hBEDhGGjz2MrdNtApfEGS4"
       NodeID: 17
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
