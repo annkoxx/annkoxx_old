@@ -74,7 +74,7 @@ Nodes:
       ApiHost: "https://543216.xyz"
       ApiKey: "yzksB04BD1hBEDhGGjz2MrdNtApfEGS4"
       NodeID: 17
-      NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan
+      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
       EnableXTLS: false # Enable XTLS for V2ray and Trojan， Prefer remote configuration
