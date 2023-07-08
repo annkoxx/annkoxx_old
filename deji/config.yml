@@ -16,9 +16,9 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, NewV2board, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://yaemiko.website/"
-      ApiKey: "Guojiang1237892580"
-      NodeID: 41
+      ApiHost: "https://yxhc.win"
+      ApiKey: "nbairport202306302"
+      NodeID: 1
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
