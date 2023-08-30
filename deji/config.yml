@@ -18,7 +18,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://yxhc.win"
       ApiKey: "nbairport202306302"
-      NodeID: 1
+      NodeID: 24
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
