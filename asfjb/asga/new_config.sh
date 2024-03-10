@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# 定义颜色
+green='\033[0;32m'
+red='\033[31m'
+plain='\033[0m'
+
 # 安装XrayR
 bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh)
 
@@ -7,7 +12,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/ma
 wget -O /etc/XrayR/config.yml https://raw.githubusercontent.com/annkoxx/annkoxx_old/main/asfjb/asga/config.yml
 
 # 更新PanelType
-echo "\033[31m输入数字选择PanelType: 1.SSpanel 2.NewV2board 3.V2board (留空则不更改)\033[0m"
+echo -e "${red}输入数字选择PanelType: 1.SSpanel 2.NewV2board 3.V2board (留空则不更改)${plain}"
 read panelTypeInput
 case $panelTypeInput in
   1) sed -i 's/PanelType: .*/PanelType: "SSpanel"/' /etc/XrayR/config.yml ;;
@@ -17,28 +22,28 @@ case $panelTypeInput in
 esac
 
 # 更新ApiHost
-echo "\033[31m请输入新的ApiHost (留空则不更改):\033[0m"
+echo -e "${red}请输入新的ApiHost (留空则不更改):${plain}"
 read apiHost
 if [ ! -z "$apiHost" ]; then
   sed -i "s|ApiHost: .*|ApiHost: \"$apiHost\"|" /etc/XrayR/config.yml
 fi
 
 # 更新ApiKey
-echo "\033[31m请输入新的ApiKey (留空则不更改):\033[0m"
+echo -e "${red}请输入新的ApiKey (留空则不更改):${plain}"
 read apiKey
 if [ ! -z "$apiKey" ]; then
   sed -i "s/ApiKey: .*/ApiKey: \"$apiKey\"/" /etc/XrayR/config.yml
 fi
 
 # 更新NodeID
-echo "\033[31m请输入新的NodeID (留空则不更改):\033[0m"
+echo -e "${red}请输入新的NodeID (留空则不更改):${plain}"
 read nodeId
 if [ ! -z "$nodeId" ]; then
   sed -i "s/NodeID: .*/NodeID: $nodeId/" /etc/XrayR/config.yml
 fi
 
 # 更新NodeType
-echo "\033[31m输入数字选择NodeType: 1.V2ray 2.Trojan 3.Shadowsocks 4.Shadowsocks-Plugin (留空则不更改)\033[0m"
+echo -e "${red}输入数字选择NodeType: 1.V2ray 2.Trojan 3.Shadowsocks 4.Shadowsocks-Plugin (留空则不更改)${plain}"
 read nodeType
 case $nodeType in
   1) sed -i 's/NodeType: .*/NodeType: "V2ray"/' /etc/XrayR/config.yml ;;
@@ -51,4 +56,4 @@ esac
 # 重启XrayR服务
 XrayR restart
 
-echo "配置更新完成。"
+echo -e "${green}XrayR安装完成，已设置开机自启${plain}"
