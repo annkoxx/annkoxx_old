@@ -56,4 +56,4 @@ esac
 # 重启XrayR服务
 XrayR restart
 
-echo -e "${green}XrayR安装完成，已设置开机自启${plain}"
+echo -e "${green}配置更新完成，本次服务到此结束！作者TG:棍勇${plain}"
