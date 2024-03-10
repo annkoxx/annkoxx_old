@@ -36,7 +36,7 @@ if [ ! -z "$apiKey" ]; then
 fi
 
 # 更新NodeID
-echo -e "${red}请输入新的NodeID*** (留空则不更改):${plain}"
+echo -e "${red}请输入新的***NodeID*** (留空则不更改):${plain}"
 read nodeId
 if [ ! -z "$nodeId" ]; then
   sed -i "s/NodeID: .*/NodeID: $nodeId/" /etc/XrayR/config.yml
