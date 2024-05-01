@@ -53,7 +53,7 @@ downimage(){
     case "$num" in
         1)
             if [ ! -f /root/image/alpine3.6.tar.gz ]; then
-                curl -L https://hry99.live/api/v3/file/download/g15E0FcwdVe2IAIf?sign=il9jBO_GlsVZ0dvHoG6AlwQPYCrGhQRF2DW84-iJWY8%3D%3A1714552995 -o /root/image/alpine3.6.tar.gz
+                curl -L https://wp.809886.xyz/d/NAT/Alpine3.6.tar.gz?sign=lBDmJznQw6D14KxRvrp98XFont88pFbvSpWxoO3u7vU=:0 -o /root/image/alpine3.6.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
@@ -61,7 +61,7 @@ downimage(){
         ;;
         2)
             if [ ! -f /root/image/debian11.tar.gz ]; then
-                curl -L https://hry99.live/api/v3/file/download/2CbCpEYjgYOkT6Yr?sign=KradGhF6i-iIXW_FT3i8O5u56VbltcLgiq8JPJxcyho%3D%3A1714552981 -o /root/image/debian11.tar.gz
+                curl -L https://wp.809886.xyz/d/NAT/debian11.tar.gz?sign=n9OpVHWKDeAdoG6bI74_EGP73G7gsydli66CqXGH9zY=:0 -o /root/image/debian11.tar.gz
                 echo "下载完成，开始导入镜像"
             fi
             cd /root >/dev/null 2>&1
@@ -215,10 +215,10 @@ InstallService(){
             echo 'UserTasksMax=infinity' | sudo tee -a /etc/systemd/logind.conf
         fi
     fi
-    curl -L https://hry99.live/api/v3/file/download/tJ1xLNrxg5PHWyJd?sign=i-h0HhXh-9zoU-zDLMFc3NkGvmQgOf6CWIlNRP0mGtI%3D%3A1714553028 -o /var/www/html/index.html
+    curl -L https://wp.809886.xyz/d/NAT/index.html?sign=gbmRCUKawaj3Grrh82MnQOKGJbEfyq6j1BwMJxgq0OY=:0 -o /var/www/html/index.html
     if [ ! -f /usr/local/bin/SenkinLxd ]; then
         _green "Lxd受控不存在，开始下载"
-        curl -L https://hry99.live/api/v3/file/download/P9wcPX6f6ZRIdCBn?sign=3cH7hzTKEE9-aV_yeDdWaZwduE3yPCws_IcMAhdoIjs%3D%3A1714553058 -o /usr/local/bin/SenkinLxd
+        curl -L https://wp.809886.xyz/d/NAT/lxd-x86?sign=LojMuCrli3YGmkHtJ7RjgrggE1rtsvwrQMl1b1o3Rcs=:0 -o /usr/local/bin/SenkinLxd
     else
         if [ ! -f /usr/local/bin/SenkinLxd ]; then
             _red "下载失败"
@@ -307,7 +307,7 @@ del_swap() {
 
 updateService(){
     systemctl stop senkinlxd
-    curl -L https://hry99.live/api/v3/file/download/P9wcPX6f6ZRIdCBn?sign=3cH7hzTKEE9-aV_yeDdWaZwduE3yPCws_IcMAhdoIjs%3D%3A1714553058 -o /usr/local/bin/SenkinLxd
+    curl -L https://wp.809886.xyz/d/NAT/lxd-x86?sign=LojMuCrli3YGmkHtJ7RjgrggE1rtsvwrQMl1b1o3Rcs=:0 -o /usr/local/bin/SenkinLxd
     systemctl start senkinlxd
 }
 
