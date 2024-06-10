@@ -18,7 +18,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://bbs-gsdgsdg-asdgwsedg-wetgew-twet.z-h-y.tech"
       ApiKey: "AAbbcc54654555aaa"
-      NodeID: 6
+      NodeID: 3
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
@@ -73,7 +73,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://asufghauisgfag.809886.xyz"
       ApiKey: "nbairport202306302"
-      NodeID: 46
+      NodeID: 24
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type, Prefer remote configuration
