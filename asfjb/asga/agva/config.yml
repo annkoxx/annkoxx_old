@@ -16,7 +16,7 @@ Nodes:
   -
     PanelType: "NewV2board" # Panel type: SSpanel, NewV2board, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://bbs-gsdgsdg-asdgwsedg-wetgew-twet.z-h-y.tech"
+      ApiHost: "https://hry-houtai.trillionproducts.eu.org"
       ApiKey: "AAbbcc54654555aaa"
       NodeID: 3
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
