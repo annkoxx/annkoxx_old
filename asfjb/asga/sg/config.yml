@@ -18,7 +18,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://hry-houtai.trillionproducts.eu.org"
       ApiKey: "AAbbcc54654555aaa"
-      NodeID: 12
+      NodeID: 45
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
