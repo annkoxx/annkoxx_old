@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt update
+sudo apt install expect -y
+
 # A1命令
 echo "正在运行 A1 命令..."
 expect -c '
