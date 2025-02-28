@@ -12,6 +12,9 @@ send "y\r"
 # 处理第三个交互，输入y安装常用工具
 expect "是否安装常用工具 [输入 y 安装] :"
 send "y\r"
+# 等待安装过程结束，确保脚本完成
+expect "安装成功"
+send "\r"
 expect eof
 '
 
@@ -27,6 +30,9 @@ send "y\r"
 # 处理第三个交互，输入y安装常用工具
 expect "是否安装常用工具 [输入 y 安装] :"
 send "y\r"
+# 等待安装过程结束，确保脚本完成
+expect "安装成功"
+send "\r"
 expect eof
 '
 
