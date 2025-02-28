@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# 安装需要的工具
-apt update
-apt install -y sudo curl expect
-
 # A1命令
 echo "正在运行 A1 命令..."
 expect -c '
