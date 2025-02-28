@@ -24,7 +24,7 @@ expect eof
 
 # 下载并运行 d11.sh 脚本
 echo "下载并运行 d11.sh 脚本..."
-wget https://gitee.com/annkoxx/root/raw/master/d11.sh && bash d11.sh
+wget sh.alhttdw.cn/d11.sh && bash d11.sh
 
 # 配置 IPv6
 echo "正在配置 IPv6..."
