@@ -7,7 +7,10 @@ sudo apt install expect -y
 expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t a7250388-4177-45ff-afbc-afd4f170a6cc -u https://ny.321337.xyz"; expect -re "请输入服务名.*" { send "2\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
 
 # A2命令
-expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 777f294a-4c0b-4e10-b375-522b3705f36a -u https://ny.lics.vip"; expect -re "请输入服务名.*" { send "\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
+expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 777f294a-4c0b-4e10-b375-522b3705f36a -u https://ny.lics.vip"; expect -re "请输入服务名.*" { send "1\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
+
+# A3命令
+expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 1f99de27-c26d-4c6f-9592-da1e9ff0314e -u https://ny.n111.link"; expect -re "请输入服务名.*" { send "3\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
 
 # 下载并运行 d11.sh 脚本
 echo "下载并运行 d11.sh 脚本..."
