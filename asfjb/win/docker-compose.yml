@@ -1,0 +1,21 @@
+services:
+  windows11:
+    image: dockurr/windows
+    container_name: windows11
+    environment:
+      VERSION: "11"
+      LANGUAGE: "English"
+      CPU_CORES: "24"
+      RAM_SIZE: "58G"
+      USERNAME: "Administrator"
+      PASSWORD: "0i0;4=V)aKet99c)uT?GH1"
+      DISK_SIZE: "200G"
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 8001:8006
+      - 3381:3389/tcp
+      - 3381:3389/udp
+    stop_grace_period: 2m
