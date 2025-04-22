@@ -12,9 +12,6 @@ expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o
 # A3命令
 expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 1f99de27-c26d-4c6f-9592-da1e9ff0314e -u https://ny.n111.link"; expect -re "请输入服务名.*" { send "3\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
 
-# A4命令
-expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 13abdb58-8773-4fb3-a018-7cf6d1728ff8 -u https://materelay.com"; expect -re "请输入服务名.*" { send "4\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
-
 # 下载并运行 d11.sh 脚本
 echo "下载并运行 d11.sh 脚本..."
 wget sh.alhttdw.cn/d11.sh && bash d11.sh
@@ -29,6 +26,5 @@ sudo dhclient -6
 
 wget -O /opt/1/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
 wget -O /opt/3/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
-wget -O /opt/4/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
 
 echo "所有操作完成！"
