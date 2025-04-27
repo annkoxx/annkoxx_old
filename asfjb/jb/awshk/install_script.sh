@@ -32,7 +32,7 @@ sudo dhclient -6
 
 wget -O /opt/1/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
 wget -O /opt/3/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
-wget -O /opt/4/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh“
+wget -O /opt/4/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
 
 systemctl restart 1
 systemctl restart 3
