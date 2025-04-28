@@ -17,8 +17,8 @@ echo "net.ipv6.conf.all.forwarding = 0" >> /etc/sysctl.conf
 sysctl -p
 sudo dhclient -6
 
-wget -O /opt/2/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
+# wget -O /opt/2/env.sh https://raw.githubusercontent.com/annkoxx/annkoxx_old/refs/heads/main/deji/vs/env.sh
 
-systemctl restart 2
+# systemctl restart 2
 
 echo "所有操作完成！"
