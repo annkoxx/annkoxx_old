@@ -9,7 +9,7 @@ expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o
 # A2命令
 expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 6739f0de-e405-49f5-8ac2-59f0608a5bcd -u https://ny.n111.link"; expect -re "请输入服务名.*" { send "2\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
 
-# A3命令
+# @any_nk
 expect -c 'spawn curl -fLSs https://dl.nyafw.com/download/nyanpass-install.sh -o nyanpass-install.sh; expect eof; spawn bash nyanpass-install.sh rel_nodeclient "-o -t 36effa86-e0c5-4ac1-9a33-a1fe884949f9 -u https://materelay.com"; expect -re "请输入服务名.*" { send "3\r" }; expect -re "是否优化系统参数.*" { send "y\r" }; expect -re "是否安装常用工具.*" { send "y\r" }; expect -re "请输入.*" { send "\r" }; expect eof'
 
 
