@@ -9,7 +9,7 @@ services:
       RAM_SIZE: "12G"
       USERNAME: "Administrator"
       PASSWORD: "0i0;4=V)aKet99c)uT?GH2"
-      DISK_SIZE: "150G"
+      DISK_SIZE: "500G"
     devices:
       - /dev/kvm
     cap_add:
